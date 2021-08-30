@@ -13,7 +13,7 @@ Welcome to class ${student.firstName} ${student.lastName}
 We are happy to have a new student from ${student.state}
 <br>
 We have many students who enjoy coding in ${student.favoriteLanguage }
-
+<br>
 Your personal list of operating systems: 
 <ul>
 

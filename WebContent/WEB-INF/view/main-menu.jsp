@@ -10,6 +10,10 @@
 <hr>
 <br>
 <a href="student/showForm">Registration form - please fill out if you want to register for class</a>
+<br>
+<hr>
+<br>
+<a href="customer/showForm">New customer - please fill out this form</a>
 
 
 </body>
