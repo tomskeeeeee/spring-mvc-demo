@@ -26,9 +26,10 @@ public class StudentController {
 		// when the form data is sent over, the data will populate this
 		// student object, then we can access the data
 		
-		// log the input dat
+		// log the input data
 		System.out.println("theStudent: " + theStudent.getFirstName() 
 		+ " " + theStudent.getLastName());
+		System.out.println("Language:" + theStudent.getFavoriteLanguage());
 		return "student-confirmation";
 	}
 }

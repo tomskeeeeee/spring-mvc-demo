@@ -15,7 +15,25 @@
 		Last name: <form:input path="lastName" />
 		<br><br>
 		
+		
+		<br><br>
+		State:
+		<form:select path="state">
+		<form:options items="${student.stateOptions }" />
+		</form:select>
+		<br><br>
+		
+		Favorite Programming Language:
+		<br>
+	<form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"  /> <br>
+		
 		<input type="submit" value="Submit" />
+		
+		Choose all Operating Systems you use:
+		<br>
+		<form:checkbox path="operatingSystems" value="OS" /> Mac OS
+		<form:checkbox path="operatingSystems" value="PC" /> Microsoft Windows
+		<form:checkbox path="operatingSystems" value="Linux" /> Linux
 		
 	</form:form>
 	
